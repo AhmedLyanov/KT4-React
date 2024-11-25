@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    transition: all 0.5s;
+    color: #ffffff;
+}
+.productCard:hover{
+    background: #ffffff;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
